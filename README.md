@@ -4,6 +4,13 @@
 
 [Drive folder containing the data](https://drive.google.com/drive/folders/1cy33llQGKs591txlE3DTkuCwVmv9jYJP?usp=drive_link)
 
+This repository contains the materials of group 128 for the course "02456 Deep learning" (DTU).
+
+Group members:
+- Marco Andreis: s243116
+- Rasmus Porsgaard: s203953
+- Csilla Duray: 233903 
+
 In terms of execution the project was divided into:
 - data processing, which is computationally intensive and needed to be done in batches to avoid problems memory allocation using pyarrow (01_data_processing.py). 
 - convexity analysis of the base model using the 04_analysis.py, which lead to us to prune the base model (using 07_manual_pruning.py) producing 12 different version of the architecture (from just the feature extractor to the full model). We then performed the finetuning (01_finetuning.py) and the validation (03_model_validation.py).
