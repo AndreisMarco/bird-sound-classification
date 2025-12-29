@@ -5,6 +5,7 @@
 [Drive folder containing the data](https://drive.google.com/drive/folders/1cy33llQGKs591txlE3DTkuCwVmv9jYJP?usp=drive_link)
 
 This repository contains the materials of group 128 for the course "02456 Deep learning" (DTU).
+The project was supervised by Teresa Dorszewski.
 
 Group members:
 - Marco Andreis: s243116
